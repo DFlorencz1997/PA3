@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18beaa4f-6703-49af-8cd6-d25645f2c15e" name="Default Changelist" comment="First Part of Homework 3">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Part2/Part2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part2/Part2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PA3/Part2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part2/src/Part1.java" beforeDir="false" afterPath="$PROJECT_DIR$/PA3/src/Part1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part2/src/Part2.java" beforeDir="false" afterPath="$PROJECT_DIR$/PA3/src/Part2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part2/src/Part3.java" beforeDir="false" afterPath="$PROJECT_DIR$/PA3/src/Part3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part2/src/Part4.java" beforeDir="false" afterPath="$PROJECT_DIR$/PA3/src/Part4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part2/src/Part5.java" beforeDir="false" afterPath="$PROJECT_DIR$/PA3/src/Part5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part2/src/SavingsAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/PA3/src/SavingsAccount.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -28,9 +35,17 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="12" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -44,6 +59,12 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Dylan\IdeaProjects\Project 3\Part2\src" />
     </key>
@@ -60,23 +81,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SavingsAccount">
+  <component name="RunManager" selected="JUnit.Application.test">
     <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainClass" />
-      <module name="Part2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Part3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part3" />
-      <module name="Part2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Part4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part4" />
       <module name="Part2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,20 +103,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Part2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Application" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SavingsAccountTest.testSAfunction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Part2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SavingsAccountTest" />
+      <option name="METHOD_NAME" value="testSAfunction" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Part3" />
-      <item itemvalue="Application.Part4" />
       <item itemvalue="Application.Part5" />
       <item itemvalue="Application.SavingsAccount" />
       <item itemvalue="Application.MainClass" />
+      <item itemvalue="JUnit.SavingsAccountTest.testSAfunction" />
+      <item itemvalue="JUnit.Application.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Application.test" />
         <item itemvalue="Application.SavingsAccount" />
+        <item itemvalue="JUnit.SavingsAccountTest.testSAfunction" />
         <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.Part5" />
-        <item itemvalue="Application.Part4" />
-        <item itemvalue="Application.Part3" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +177,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
