@@ -18,7 +18,7 @@ public class Part1 {
     private static void grade(Scanner scan, SecureRandom sr) {
         int firstNum = sr.nextInt(9) + 1;
         int secondNum = sr.nextInt(9) + 1;
-        System.out.printf("What is %d times %d",firstNum,secondNum);
+        System.out.printf("What is %d times %d: ",firstNum,secondNum);
         int guess = scan.nextInt();
         int j = 0;
 
