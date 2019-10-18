@@ -7,6 +7,7 @@ public class SavingsAccount {
         this.savingsBalance = amount;
     }
 
+    public double calculateMonthlyInterest(){
         double interest = (this.savingsBalance * annualInterestRate)/12;
         this.savingsBalance += interest;
         return this.savingsBalance;
